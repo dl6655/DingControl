@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dlingli.dingcontrol">
+
+    <uses-sdk android:minSdkVersion="19" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Button2Activity" />
+        <activity android:name=".CircleViewActivity" />
+        <activity android:name=".CustomSeekBarActivity" />
+        <activity android:name=".SeekbarPointActivity" />
+        <activity android:name=".SeekArcActivity" />
+        <activity android:name=".TextCounterViewActivity" />
+        <activity android:name=".ThermometerActivity" />
+        <activity android:name=".HorizontalNumberPickerActivity"
+            />
+        <activity android:name=".SwitchActivity" />
+        <activity android:name=".ArcViewActivity" />
+        <activity android:name=".VerticalNumberPickerActivity"
+            />
+                <activity android:name=".RotationSeekbarThumbActivity" />
+       <activity android:name=".ArrowUpViewActivity" />
+        <activity android:name=".ArrowDownViewActivity" />
+        <activity android:name=".CirclePressActivity" />
+        <activity android:name=".ButtonPrimaryActivity" />
+        <activity android:name=".SwitchLineActivity"></activity>
+    </application>
+
+</manifest>

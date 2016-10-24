@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:background="@android:color/black"
+>
+
+  <widget.CirclePressView
+      android:id="@+id/button_minus"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_gravity="center_vertical"
+  />
+
+  <TextView
+      android:id="@+id/text_value"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/red_ff0000"
+      android:textSize="70sp"
+      android:gravity="center"
+      android:layout_gravity="center_vertical"
+      android:padding="40dp"
+      tools:text="0"
+  />
+
+  <widget.CirclePressView
+      android:id="@+id/button_plus"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_gravity="center_vertical"
+  />
+</LinearLayout>

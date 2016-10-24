@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <widget.ArcViewLeft
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rela1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/left_circle_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle_point_bg" />
+
+        />
+
+        <ImageView
+            android:id="@+id/left_circle_above"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle_bg" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rela2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/middle_left_point"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/rectengle_m2_bg" />
+
+        <ImageView
+            android:id="@+id/middle_right_point"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/rectengle_m2_bg" />
+
+        <ImageView
+            android:id="@+id/middle_green_point_above"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/rectengle_bg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rela3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/right_circle_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle_point_bg" />
+
+        <ImageView
+            android:id="@+id/right_circle_above"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle_bg" />
+    </RelativeLayout>
+
+    <widget.ArcViewRight
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        />
+</LinearLayout>

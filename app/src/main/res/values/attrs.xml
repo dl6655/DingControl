@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 参考Seekbar -->
+    <declare-styleable name="windows">
+
+        <!-- 背景颜色 -->
+        <attr name="background1" format="color" />
+        <!-- 进度颜色 -->
+        <attr name="progressDrawable" format="color" />
+        <!-- 宽度 -->
+        <attr name="layout_width" format="dimension" />
+        <!-- 字体颜色 -->
+        <attr name="textColor" format="color" />
+        <!-- 字体大小 -->
+        <attr name="textSize" format="dimension" />
+        <!-- 最大进度 -->
+        <attr name="max" format="integer" />
+        <!-- 进度 -->
+        <attr name="progress" format="integer" />
+        <!-- 进度点 -->
+        <attr name="thumb" format="reference" />
+        <!-- 进度点宽高 -->
+        <attr name="thumbSize" format="integer" />
+    </declare-styleable>
+
+
+    <!-- 参考CustomSeekBar-->
+    <declare-styleable name="TvProgressBar">
+
+        <!-- 进度点宽高 -->
+        <attr name="progressWidth" format="integer" />
+        <!-- 进度点宽高 -->
+        <attr name="thumbWidth" format="integer" />
+        <!-- 进度方向 -->
+        <attr name="orientation" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SeekArc">
+        <attr name="arc_thumb" format="reference" />
+        <attr name="thumbOffset" format="dimension" />
+        <attr name="arc_max" format="integer" />
+        <attr name="arcProgressWidth" format="dimension" />
+        <attr name="arcWidth" format="dimension" />
+        <attr name="arcProgress" format="integer" />
+        <attr name="rotation" format="integer" />
+        <attr name="startAngle" format="integer" />
+        <attr name="sweepAngle" format="integer" />
+        <attr name="arcColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="roundEdges" format="boolean" />
+        <attr name="touchInside" format="boolean" />
+        <attr name="clockwise" format="boolean" />
+        <attr name="enabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SeekArcTheme">
+        <attr name="seekArcStyle" format="reference"></attr>
+    </declare-styleable>
+
+
+
+</resources>
+

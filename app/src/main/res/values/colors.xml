@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green_order">#5abe00</color>
+    <color name="red_ff0000">#ff0000</color>
+    <color name="red_dark">#CC0000</color>
+
+    <color name="red">#ffe2231a</color>
+    <color name="dark_red">#ff510209</color>
+
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="default_blue_light">#ff33b5e5</color>
+</resources>

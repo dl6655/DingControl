@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EUIAUTO-CES-WIDGET</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_clipdraw">primary_button</string>
+    <string name="primary_button">primary_button</string>
+    <string name="circle_progress_button">circle_progress_button</string>
+    <string name="button_custom_seek_bar">button_custom_seek_bar</string>
+    <string name="button_point_seek_bar">button_point_seek_bar</string>
+    <string name="title_activity_button2">Button2Activity</string>
+
+
+    <string name="defaultButtonMinus">-</string>
+    <string name="defaultButtonPlus">+</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
